@@ -1,0 +1,154 @@
+/* Estilos para el componente Home */
+/* Estilos para el componente Home */
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 2rem;
+    background-color: #279d2e;
+    color: white;
+}
+
+.header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #279d2e;
+    color: white;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+}
+
+.main {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.services {
+    margin-bottom: 4rem;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    justify-items: center;
+}
+
+.service {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.service:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.service i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.learn-more-btn {
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #279d2e;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+    background-color: #007a2b;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #279d2e;
+    color: white;
+}
+
+
+
+/* Estilos adicionales para las secciones de sucursales y calculadora financiera */
+
+.additional-content {
+    margin-top: 4rem;
+}
+
+.branch-locations,
+.financial-calculator {
+    width: 100%;
+}
+
+.branch-locations ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.branch-locations ul li {
+    margin-bottom: 1rem;
+}
+
+.financial-calculator form {
+    display: flex;
+    flex-direction: column;
+}
+
+.financial-calculator label {
+    margin-bottom: 0.5rem;
+}
+
+.financial-calculator input {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.financial-calculator button {
+    padding: 0.5rem 1rem;
+    background-color: #279d2e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 40px;
+}
+
+.financial-calculator button:hover {
+    background-color: #007a2b;
+}

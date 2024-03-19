@@ -1,0 +1,102 @@
+.registerr-box {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    height: 120vh;
+    background-color: #a6a6a6;
+    background-image: url("/img/3.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.register-container {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 500px;
+    height: 840px;
+    animation: fadeIn 2s ease, slideUp 2s ease;
+}
+
+.register-content {
+    text-align: center;
+    color: #279d2e;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+
+.register-header h1 {
+    font-size: 24px; 
+    color: #279d2e;
+}
+
+.register-content h2 {
+    font-size: 20px; 
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.register-content h3 {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    width: 198px;
+}
+
+.register-btn {
+    background-color: #3c3c3b;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 24px;
+    width: 100%; 
+}
+
+.register-btn:hover {
+    background-color: #1e1e1d;
+}
+
+.register-register-btn {
+    margin-right: 10px;
+}
+
+.acept, .cancel {
+    border: none;
+    background-color: #3c3c3b;
+    color: #fff;
+    font-size: 1.15rem;
+    font-weight: 500;
+    padding: 0.8rem 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+    transform: translate(1) translate(0, 0);
+    transition: transform 225ms, box-shadow 225ms;
+    margin-top: 20px;
+}
+
+.acept:hover, .cancel:hover {
+    transform: scale(1.05) translate(0, -0.15rem);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.35);
+}
+
+.register-title {
+    color: #279d2e; /* Color verde correspondiente */
+    display: flex;
+    justify-content: center;
+}
